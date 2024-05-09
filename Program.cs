@@ -210,6 +210,9 @@ namespace contacts
                 case "6":
                     AfficherContacts();
                     break;
+                default:
+                    Console.WriteLine("Désolé, nus n'avons pas compris votre choix, réessayer.");
+                    break;
             }
             Console.ReadKey();
         }
