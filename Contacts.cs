@@ -10,12 +10,6 @@ namespace contacts
         public Cordonnes? cordonne { get; set; }
 
         public Contact() { }
-        //public Contact(string nom, string prenom )
-        //{
-        //    Nom = nom;
-        //    Prenom = prenom;
-
-        //}
         public Contact(string nom, string prenom, Cordonnes cordonneVar)
         {
             Nom = nom;
